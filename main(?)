@@ -1,0 +1,34 @@
+
+class player(object):
+    def __init__(self, name, prof, str, dex, int):
+        pass
+
+def characterCreation():
+    stats_holder = []                   # List for storing stats during creation
+    name = str(raw_input("Name: "))
+    stats_holder.append(name)
+    print ("====================")      #Fancy break
+    print ("[1]Knight")
+    print ("[2]Hunter")
+    print ("[3]Mage")
+    prof = str(raw_input("Select your profession: "))
+
+    if prof == "1":                 #Placeholder for stat assignement
+        pass
+    elif prof == "2":
+        pass
+    elif prof == "3":
+        pass
+
+    stats_holder.append(" ")         #Placeholders just to make code running
+    stats_holder.append(" ")
+    stats_holder.append(" ")
+    stats_holder.append(" ")
+    stats_holder.append(" ")
+
+    character = player(stats_holder[0],stats_holder[1],stats_holder[2],stats_holder[3],stats_holder[4])
+    #/\ Can this thing be replaced with something shorter?
+
+
+
+characterCreation()
