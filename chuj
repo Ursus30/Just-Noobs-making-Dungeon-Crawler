@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main()
+{
+  int jezus;
+  if (jezus => 0)
+  {
+    std::cout << jezus << "osoby boskie";
+  }
+  return 0;
+}
